@@ -1,0 +1,112 @@
+---
+import GridTitle from "../components/GridTitle.astro";
+import GridContent from "../components/GridContent.astro";
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Ask Us Anything Discussion Guide</title>
+  </head>
+  <body class="min-h-dvh px-4 pb-12">
+    <div class="mx-auto mt-4 max-w-7xl text-center lg:mt-16 lg:pb-24">
+      <h1 class="mb-12 text-4xl font-semibold text-[#234f76]">
+        Discussing informational, emotional & relational aspects of grieving
+        children’s questions
+      </h1>
+
+      <div
+        class="flex grid-flow-col grid-cols-5 grid-rows-[auto,auto] flex-col gap-8 lg:grid lg:gap-4"
+      >
+        <div class="max-lg:space-y-4 lg:contents [&>*]:bg-custom-green">
+          <GridTitle>Inviting</GridTitle>
+          <GridContent>
+            <blockquote class="italic">
+              “When something like this happens, people can have lots of
+              questions.<br /><br /> We can talk about any questions, even if I don’t
+              have answers.<br /><br /> What questions have you had? <br /><br
+              />Do you want to hear what others have asknpm ed?”
+            </blockquote>
+          </GridContent>
+        </div>
+
+        <div class="max-lg:space-y-4 lg:contents [&>*]:bg-custom-blue-100">
+          <GridTitle>Validating</GridTitle>
+          <GridContent>
+            <ul class="max-lg:space-y-4">
+              <li>Repeat the question in the child's words</li>
+              <li>Validate the child's question & feelings</li>
+              <li>Acknowledge vulnerability</li>
+            </ul>
+          </GridContent>
+        </div>
+
+        <div class="max-lg:space-y-4 lg:contents [&>*]:bg-custom-blue-200">
+          <GridTitle>Reflecting</GridTitle>
+          <GridContent>
+            <ul class="max-lg:space-y-4">
+              <li>
+                Clarify the question, language, or misconceptions <div
+                  class="text-red-600"
+                >
+                  &mdash; “what does that mean?”
+                </div>
+              </li>
+              <li>Explore underlying ideas</li>
+              <li>
+                Acknowledge complexity and uncertainty <div
+                  class="text-red-600"
+                >
+                  &mdash; “I don't know, but”
+                </div>
+              </li>
+            </ul>
+          </GridContent>
+        </div>
+
+        <div class="max-lg:space-y-4 lg:contents [&>*]:bg-custom-blue-300">
+          <GridTitle>Describing</GridTitle>
+          <GridContent>
+            <div class="mb-4 italic">*Informational aspects</div>
+            <ul class="max-lg:space-y-4">
+              <li>Build on understanding</li>
+              <li class="italic text-red-600">** “what do you know/think…?”</li>
+              <li>Clarify medical terms and euphemisms</li>
+              <li>Clear, concrete, honest step- wise responses</li>
+              <li>Check-in</li>
+            </ul>
+          </GridContent>
+        </div>
+
+        <div class="max-lg:space-y-4 lg:contents [&>*]:bg-custom-green">
+          <GridTitle>Exploring/supporting</GridTitle>
+          <GridContent>
+            <div class="mb-4 italic leading-tight">
+              *Emotional / Relational aspect
+            </div>
+            <ul class="max-lg:space-y-4">
+              <li>
+                Explore / clarify elements of:
+                <ul class="list-disc pl-4">
+                  <li>Vulnerability</li>
+                  <li>Guilt / blame</li>
+                  <li>Helplessness</li>
+                  <li>Uncertainty</li>
+                </ul>
+              </li>
+              <li>Discuss: Wonders, Worries, Wishes</li>
+              <li>Nurture connection & ongoing dialogue</li>
+              <li class="italic">Presence &gt; answers</li>
+            </ul>
+          </GridContent>
+        </div>
+      </div>
+
+      <p class="mt-4">Adapted from Thompson & Payne., 2000</p>
+      <p class="mt-4">&copy; Eaton Russell, Humphreys & Ross, 2024</p>
+    </div>
+  </body>
+</html>
